@@ -3,14 +3,25 @@
 <head>
   <meta charset="UTF-8">
   <title>Recipes</title>
+  <link rel="stylesheet" href="index.css">
 </head>
 <body>
-  <h1>Odin Recipes</h1>
-  <ul>
-    <li><a href="recipes/lasagna.html">Lasagna</a></li>
-    <li><a href="recipes/pizza.html">Pizza</a></li>
-    <li><a href="recipes/hot-dog.html">Hot dog</a></li>
-  </ul>
+  <div class="header">
+    <h1>Odin recipes</h1>
+  </div>
+  <a href="recipes/lasagna.html">
+    <ul class="recipe-list">
+      <div class="recipe-box">
+        <img class="lasagna-2-image" src="./images/lasagna-2.jpg" alt="an image of lasagna" width="500" height="281">
+        <div class="recipe-description-box">
+          <li class="recipe-name">Lasagna</li>
+          <p class="recipe-description">When John Chandler submitted this lasagna recipe to Allrecipes more than 20 years ago, he had no idea how successful it would become. One of our top-performing recipes of all time, World's Best Lasagna racks up more than 7 million views per year and has ranked among the most popular lasagna recipes on the internet for two decades...</p>
+        </div>
+      </div>
+      <li><a href="recipes/pizza.html">Pizza</a></li>
+      <li><a href="recipes/hot-dog.html">Hot dog</a></li>
+    </ul>
+  </a>
   <script></script>
 </body>
 </html>
