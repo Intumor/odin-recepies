@@ -3,16 +3,22 @@
 <head>
   <meta charset="UTF-8">
   <title>Hot Dog</title>
+  <link rel="stylesheet" href="hot-dog.css">
 </head>
 <body>
-  <h1>Hot Dog</h1>
+  <h1 class="header">Hot Dog</h1>
 
-  <img src="../images/hot-dog.jpg" alt="image of hot-dogs" width="450" height="350">
-  <h3>About this recipe</h3>
-  <p style="width: 450px;">This hot dog is a Windy City classic and a big favorite with sports fans! The frank must be all-beef, the bun must be poppy seed, and the ingredients must be piled onto the bun in the order specified. And whatever you do, don't spoil the splendor of this Chicago dog with ketchup!</p>
+  <div class="dog-recipe-box">
+    <img class="hot-dog-image" src="../images/hot-dog.jpg" alt="image of hot-dogs" width="600" height="400">
+    <div class="recipe-description-box">
+      <h1 class="about-recipe">About this recipe</h1>
+      <p class="recipe-description">This hot dog is a Windy City classic and a big favorite with sports fans! The frank must be all-beef, the bun must be poppy seed, and the ingredients must be piled onto the bun in the order specified. And whatever you do, don't spoil the splendor of this Chicago dog with ketchup! This hot dog chili recipe took me many years to get just right! It reminds me of the chili I had as a kid.</p>
+    </div>
+  </div>
 
-  <h2>Ingridients</h2>
-    <ul>
+  <div class="steps-and-ingridients">
+    <h2 class="ingredients-header">Ingridients</h2>
+    <ul class="list-of-ingridients">
       <li>1 all-beef hot dog</li>
       <li>1 poppy seed hot dog bun</li>
       <li>1 tablespoon yellow mustard</li>
@@ -31,6 +37,7 @@
       <li style="margin-bottom: 10px;">Place a steamer basket into the pot and steam poppy seed bun until warm, about 2 minutes.</li>
       <li style="margin-bottom: 10px;">Place hot dog in steamed bun. Pile on toppings in this order: mustard, relish, onion, tomato, pickle, peppers, and celery salt. The tomato wedges should be nestled between hot dog and top of bun on one side. Place pickle between hot dog and bottom of bun on the other side. Don't even think about ketchup!</li>
     </ol>
+  </div>
   <script></script>
 </body>
 </html>

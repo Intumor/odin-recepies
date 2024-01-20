@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  text-align: center;
+  font-size: 50px;
+  padding: 10px 10px 30px 10px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.dog-recipe-box {
+  padding: 20px 0px 20px 80px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.hot-dog-image {
+  padding-right: 20px;
+}
+
+.recipe-description-box {
+  min-width: 400px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 600px;
+  max-width: 669px;
+}
+
+.about-recipe {
+  text-align: center;
+  font-size: 40px;
+}
+
+.recipe-description {
+  font-size: 30px;
+  line-height: 42px;
+}
+
+.steps-and-ingridients {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transform: translateX(8%);
+}
+
+.ingredients-header {
+  font-size: 40px;
+}
+
+.list-of-ingridients {
+  font-size: 30px;
+}
