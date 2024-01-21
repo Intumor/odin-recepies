@@ -11,14 +11,17 @@
 }
 
 .dog-recipe-box {
-  padding: 20px 0px 20px 80px;
+  padding: 20px 0px 20px 30px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
 .hot-dog-image {
-  padding-right: 20px;
+  padding-right: 25px;
+  min-width: 450px;
+  min-height: auto;
+  object-fit: contain;
 }
 
 .recipe-description-box {
@@ -27,7 +30,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  min-width: 600px;
+  min-width: 450px;
   max-width: 669px;
 }
 
@@ -37,21 +40,91 @@
 }
 
 .recipe-description {
+  margin-top: 12px;
   font-size: 30px;
-  line-height: 42px;
+  line-height: 40px;
 }
 
 .steps-and-ingridients {
   display: flex;
-  flex-direction: column;
   justify-content: center;
-  transform: translateX(8%);
+  align-items: center;
+  margin-top: 30px;
+  line-height: 50px;
+  gap: 80px;
+  flex-wrap: wrap-reverse;
+}
+
+.ingridients-box {
+  display: flex;
+  flex-direction: column;
+  padding-left: 60px;
 }
 
 .ingredients-header {
   font-size: 40px;
+  padding-bottom: 14px;
 }
 
 .list-of-ingridients {
   font-size: 30px;
+}
+
+.hot-dog-ingridients {
+  min-width: 450px;
+}
+
+.steps-header {
+  text-align: center;
+  font-size: 50px;
+  padding: 70px 0 50px 0;
+}
+
+.steps-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+.steps-hot-dog {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.step {
+  font-size: 30px;
+  max-width: 1000px;
+  min-width: 450px;
+}
+
+.boiling-water {
+  min-width: 450px;
+  max-width: 100%;
+  height: 450px;
+  object-fit: contain;
+}
+
+.steaming-buns {
+  min-width: 450px;
+  max-width: 100%;
+  height: 450px;
+  object-fit: contain;
+}
+
+.finished-hot-dog {
+  min-width: 450px;
+  max-width: 100%;
+  height: 450px;
+  object-fit: contain;
+}
+
+.step-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
 }
